@@ -93,7 +93,7 @@ def geocode(address_here):
         lat_response = lat_long['lat']
         lng_response = lat_long['lng']
 
-        final = {'address': address_here, 'lat': lat_response, 'lon': lng_response}
-        return final
+        final_address = {'address': address_here, 'lat': lat_response, 'lon': lng_response}
+        return final_address
     else:
-        return None
+        return none
